@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <script class="u-script" type="text/javascript" src="{{ url_for('static',filename='multiselect_drop.js') }}"></script>
+<style>
+body {
+  font-family: Open sans, Helvetica;
+  transition: background-color #111;
+   background: #111;
+  color: white;
+  font-size: 14px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+  color: #f1f1f1;
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: white;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: -220px;
+  font-size: 46px;
+  margin-left: 3px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 800px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+body
+{
+  font-family: Open sans, Helvetica;
+  background: #111;
+  color: white;
+  font-size: 14px;
+}
+
+h1
+{
+  font-weight: lighter;
+}
+
+small
+{
+  color: firebrick;
+}
+
+div.checkbox_select
+{
+  width: 200px;
+}
+
+.checkbox_select_anchor
+{
+  display: block;
+  background: firebrick;
+  color: white;
+  cursor: pointer;
+  padding: 10px 5px 5px;
+  position: relative;
+}
+
+.checkbox_select_anchor:after
+{
+  width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid darkred;
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.expanded .checkbox_select_anchor:after
+{
+	border-top: 0;
+	border-bottom: 10px solid firebrick;
+}
+
+
+.checkbox_select_anchor:hover
+{
+  background: #FF3030 !important;
+}
+
+.expanded .checkbox_select_anchor
+{
+    background: #7C1818;
+}
+
+div.checkbox_select .select_input
+{
+    width: 100%;
+    cursor: pointer;
+}
+
+.checkbox_select_dropdown
+{
+    display: none;
+    background: whitesmoke;
+}
+
+.checkbox_select_dropdown.show
+{
+    display: block;
+}
+
+.checkbox_select_dropdown ul
+{
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0;
+  margin: 0;
+      border: 1px solid #999;
+  border-top: 0;
+  border-bottom: 0;
+}
+.checkbox_select_dropdown ul li
+{
+    list-style: none;
+    position: relative;
+    color: #666;
+}
+.checkbox_select_dropdown ul li label
+{
+  position: relative;
+      padding: 10px 5px 5px 40px;
+     display: block;
+  cursor: pointer;
+}
+.checkbox_select_dropdown ul li label:hover
+{
+  background: #cbcbcb;
+  color: white;
+}
+.checkbox_select_dropdown ul li input:checked + label
+{
+  background: #bbb;
+  color: white;
+  text-shadow: 0px 1px 1px rgba(150, 150, 150, 1);
+}
+.checkbox_select_dropdown ul li input
+{
+  position: absolute;
+  left:0;
+  z-index:1;
+  display: inline-block;
+  height: 100%;
+  width: 30px;
+}
+.checkbox_select_search
+{
+    width: 200px;
+    padding: 10px 5px 5px;
+    border: 1px solid #999;
+      border-top: 0;
+    -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+}
+
+.checkbox_select_submit
+{
+    background: firebrick;
+    color: white;
+    padding: 10px 5px 5px;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hide
+{
+    display: none;
+}
+.accordeon {
+  width: 460px;
+  height: auto;
+  min-height: 340px;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.accordeon-header {
+  display: inline-block;
+  width: 450px;
+  border: solid 0.1vw black;
+  border-radius: 0.2vw;
+  background-color: white;
+  padding-left: 10px;
+  color: black;
+}
+
+.accordeon-header:hover {
+  opacity: 0.7;
+}
+
+.accordeon-body {
+  display: block;
+  position: absolute;
+}
+
+.button-group {
+  display: block;
+  cursor: pointer;
+  width: 460px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.accordeon-group {
+  padding-left: 20px;
+}
+
+.accordeon-group .button-group {
+  width: 100%;
+}
+
+.button-group[depth="-1"] {
+  color: green;
+}
+
+.hide {
+  display: none;
+}
+</style>
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <br><br><br>
+  <div class="accordeon">
+    <span class="accordeon-header" aria-multiselectable="true" aria-multiline="true">Choose Attributes</span>
+    <div class="accordeon-body hide" aria-multiline="true">
+    </div>
+
+  </div>
+</div>
+
+
+<div id="main">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "black";
+}
+</script>
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+const theArray = {{ theArray|safe }}
+const theDict =  {{ theDict|safe }}
+let text = ""
+for (let i = 0; i < theArray.length; i++) {
+    text += theArray[i] + theDict[i]
+}
+    var div = document.createElement('div');
+    div.id = "container";
+    div.innerHTML = text;
+    div.style  = "display:inline-block; float:right";
+    document.body.appendChild(div);
+}, false);
+</script>
+<script>
+  var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var dropdownContent = this.nextElementSibling;
+    if (dropdownContent.style.display === "block") {
+      dropdownContent.style.display = "none";
+    } else {
+      dropdownContent.style.display = "block";
+    }
+  });
+}
+</script>
+</body>
+<script>
+
+const obj = {{ newDict|safe }}
+
+
+initAccordeon(obj);   // <--------------------------- Call initialization
+
+function accordeonAddEvents() {
+  Array.from(document.getElementsByClassName("accordeon-header")).forEach(function(header) {
+    if (header.getAttribute("listener") !== "true") {
+      header.addEventListener("click", function() {
+        this.parentNode.getElementsByClassName("accordeon-body")[0].classList.toggle("hide");
+      });
+      header.setAttribute("listener", "true");
+    }
+  });
+
+  Array.from(document.getElementsByClassName("button-group")).forEach(function(but) {
+    if (but.getAttribute("listener") !== "true") {
+      but.addEventListener("click", function() {
+        if (this.getAttribute("depth") === "-1") {
+          let header = this;
+          while ((header = header.parentElement) && header.className !== "accordeon");
+          header.getElementsByClassName("accordeon-header")[0].innerHTML = this.innerHTML;
+          return;
+        }
+        const groups = Array.from(this.parentNode.getElementsByClassName("accordeon-group"));
+        groups.forEach(g => {
+          if (g.getAttribute("uuid") === this.getAttribute("uuid") &&
+            g.getAttribute("depth") === this.getAttribute("depth")) {
+            g.classList.toggle("hide");
+          }
+        });
+      });
+      but.setAttribute("listener", "true");
+    }
+  });
+}
+
+function initAccordeon(data) {
+  accordeons = Array.from(document.getElementsByClassName("accordeon-body"));
+  accordeons.forEach(acc => {
+    acc.innerHTML = "";
+    const route = (subObj, keyIndex = 0, parent = acc, depth = 0) => {
+      const keys = Object.keys(subObj);
+      if (typeof subObj === 'object' && !Array.isArray(subObj) && keys.length > 0) {
+        while (keyIndex < keys.length) {
+          var but = document.createElement("button");
+          but.className = "button-group";
+          but.setAttribute("uuid", keyIndex);
+          but.setAttribute("depth", depth);
+          but.innerHTML = keys[keyIndex];
+          var group = document.createElement("div");
+          group.className = "accordeon-group hide";
+          group.setAttribute("uuid", keyIndex);
+          group.setAttribute("depth", depth);
+          route(subObj[keys[keyIndex]], 0, group, depth + 1);
+          keyIndex++;
+          parent.append(but);
+          parent.append(group);
+        }
+      } else {
+        if (!Array.isArray(subObj)) subObj = [subObj];
+        subObj.forEach((e, i) => {
+          if (typeof e === 'object') {
+              route(e, 0, parent, depth);
+          } else {
+              var but = document.createElement("button");
+              but.className = "button-group";
+              but.setAttribute("uuid", i);
+              but.setAttribute("depth", "-1");
+              but.innerHTML = e;
+              parent.append(but);
+          }
+        });
+      }
+    };
+    route(data);
+  });
+  accordeonAddEvents();
+}
+</script>
+</html>

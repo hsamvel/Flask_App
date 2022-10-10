@@ -1,0 +1,2205 @@
+{
+    "rootDomain": "wilder.ape.test.test",
+    "nfts": [
+        {
+            "tag": "1",
+            "domain": "wilder.ape.test.test.1",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE1.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE1.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Base 1"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Lava (flames)"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "1"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "2",
+            "domain": "wilder.ape.test.test.2",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE2.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE2.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Base 2"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "2"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "3",
+            "domain": "wilder.ape.test.test.3",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE3.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE3.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Veins"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "3"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "4",
+            "domain": "wilder.ape.test.test.4",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE4.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE4.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Zombie"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Bolts"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "4"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "5",
+            "domain": "wilder.ape.test.test.5",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE5.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE5.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Batman"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "5"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "6",
+            "domain": "wilder.ape.test.test.6",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE6.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE6.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Stripes"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "6"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "7",
+            "domain": "wilder.ape.test.test.7",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE7.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE7.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "7"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "8",
+            "domain": "wilder.ape.test.test.8",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE8.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE8.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Panda"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "8"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Midnight"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "9",
+            "domain": "wilder.ape.test.test.9",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE9.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE9.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Zebra"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "9"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "10",
+            "domain": "wilder.ape.test.test.10",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE10.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE10.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Paint V1"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "10"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Candy"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "11",
+            "domain": "wilder.ape.test.test.11",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE11.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE11.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Paint V2"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "3"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Lime"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "12",
+            "domain": "wilder.ape.test.test.12",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE12.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE12.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Camo"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "2"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Chaos"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "13",
+            "domain": "wilder.ape.test.test.13",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE13.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE13.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Darth Maul"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "1"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Matrix"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "14",
+            "domain": "wilder.ape.test.test.14",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE14.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE14.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Base 1"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "1"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "15",
+            "domain": "wilder.ape.test.test.15",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE15.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE15.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Base 2"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "2"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "16",
+            "domain": "wilder.ape.test.test.16",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE16.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE16.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Veins"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "3"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "17",
+            "domain": "wilder.ape.test.test.17",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE17.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE17.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Zombie"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "4"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "18",
+            "domain": "wilder.ape.test.test.18",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE18.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE18.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Batman"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "5"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "19",
+            "domain": "wilder.ape.test.test.19",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE19.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE19.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Stripes"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "6"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "20",
+            "domain": "wilder.ape.test.test.20",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE20.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE20.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "7"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "21",
+            "domain": "wilder.ape.test.test.21",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE21.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE21.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Panda"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Bolts"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "8"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "22",
+            "domain": "wilder.ape.test.test.22",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE22.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE22.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Zebra"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "9"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "23",
+            "domain": "wilder.ape.test.test.23",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE23.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE23.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Paint V1"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "10"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Midnight"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Candy"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "24",
+            "domain": "wilder.ape.test.test.24",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE24.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE24.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Paint V2"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Lava (flames)"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "3"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Lime"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "25",
+            "domain": "wilder.ape.test.test.25",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE25.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE25.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Camo"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "2"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Chaos"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "26",
+            "domain": "wilder.ape.test.test.26",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE26.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE26.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Darth Maul"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Lava (flames)"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "1"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Matrix"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "27",
+            "domain": "wilder.ape.test.test.27",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE27.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE27.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Base 2"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Lava (flames)"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "10"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "28",
+            "domain": "wilder.ape.test.test.28",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE28.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE28.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Veins"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "9"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "29",
+            "domain": "wilder.ape.test.test.29",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE29.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE29.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Zombie"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "8"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "30",
+            "domain": "wilder.ape.test.test.30",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE30.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE30.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Batman"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Bolts"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "7"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "31",
+            "domain": "wilder.ape.test.test.31",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE31.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE31.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Stripes"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "6"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "32",
+            "domain": "wilder.ape.test.test.32",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE32.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE32.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "5"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "33",
+            "domain": "wilder.ape.test.test.33",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE33.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE33.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Panda"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "4"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "34",
+            "domain": "wilder.ape.test.test.34",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE34.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE34.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Zebra"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "3"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "35",
+            "domain": "wilder.ape.test.test.35",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE35.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE35.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Paint V1"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "2"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "36",
+            "domain": "wilder.ape.test.test.36",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE36.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE36.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Paint V2"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "1"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Candy"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "37",
+            "domain": "wilder.ape.test.test.37",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE37.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE37.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Camo"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "10"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Lime"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "38",
+            "domain": "wilder.ape.test.test.38",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE38.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE38.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Darth Maul"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "9"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Midnight"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Chaos"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "39",
+            "domain": "wilder.ape.test.test.39",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE39.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE39.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Paint V1"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "10"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Matrix"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "40",
+            "domain": "wilder.ape.test.test.40",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE40.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE40.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Darth Maul"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "9"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "41",
+            "domain": "wilder.ape.test.test.41",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE41.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE41.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Camo"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "8"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "42",
+            "domain": "wilder.ape.test.test.42",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE42.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE42.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Paint V2"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "7"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "43",
+            "domain": "wilder.ape.test.test.43",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE43.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE43.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Paint V1"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "6"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "44",
+            "domain": "wilder.ape.test.test.44",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE44.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE44.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Zebra"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "5"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "45",
+            "domain": "wilder.ape.test.test.45",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE45.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE45.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Panda"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "4"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "46",
+            "domain": "wilder.ape.test.test.46",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE46.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE46.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "3"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "47",
+            "domain": "wilder.ape.test.test.47",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE47.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE47.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "War Stripes"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Bolts"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "2"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "48",
+            "domain": "wilder.ape.test.test.48",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE48.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE48.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Batman"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "1"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "49",
+            "domain": "wilder.ape.test.test.49",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE49.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE49.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Zombie"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "10"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Candy"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "50",
+            "domain": "wilder.ape.test.test.50",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_ESCHEMERE50.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_ESCHEMERE50.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Hybrid"
+                    },
+                    {
+                        "trait_type": "Organic Pattern",
+                        "value": "Veins"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Lava (flames)"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "9"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Lime"
+                    }
+                ]
+            }
+        }
+    ]
+}

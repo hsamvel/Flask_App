@@ -1,0 +1,3965 @@
+{
+    "rootDomain": "wilder.moto.test.test",
+    "nfts": [
+        {
+            "tag": "1",
+            "domain": "wilder.moto.test.test.1",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH57.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH57.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Base"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "2",
+            "domain": "wilder.moto.test.test.2",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH58.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH58.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Cigar"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "3",
+            "domain": "wilder.moto.test.test.3",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH59.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH59.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Joint"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "4",
+            "domain": "wilder.moto.test.test.4",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH60.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH60.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Blunt"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Honeycomb"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "5",
+            "domain": "wilder.moto.test.test.5",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH61.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH61.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Doom Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "6",
+            "domain": "wilder.moto.test.test.6",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH62.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH62.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Horns Mask #1"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Chaos (Red and Black)"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "7",
+            "domain": "wilder.moto.test.test.7",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH63.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH63.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Juul"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Checkers"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "8",
+            "domain": "wilder.moto.test.test.8",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH64.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH64.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Ventilator"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Midnight"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "9",
+            "domain": "wilder.moto.test.test.9",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH65.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH65.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Horns Mask #2"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Black"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "10",
+            "domain": "wilder.moto.test.test.10",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH66.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH66.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Cat Punk Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "11",
+            "domain": "wilder.moto.test.test.11",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH67.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH67.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Night Vison"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "12",
+            "domain": "wilder.moto.test.test.12",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH68.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH68.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Mad Max"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Base"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "13",
+            "domain": "wilder.moto.test.test.13",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH69.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH69.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "PsychoMech"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "14",
+            "domain": "wilder.moto.test.test.14",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH70.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH70.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Jason Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "15",
+            "domain": "wilder.moto.test.test.15",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH71.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH71.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Bane Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Honeycomb"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "16",
+            "domain": "wilder.moto.test.test.16",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH72.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH72.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "17",
+            "domain": "wilder.moto.test.test.17",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH73.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH73.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Army Helmet"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "18",
+            "domain": "wilder.moto.test.test.18",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH74.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH74.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Pilot's Hat"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "19",
+            "domain": "wilder.moto.test.test.19",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH75.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH75.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Crown"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Chaos (Red and Black)"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "20",
+            "domain": "wilder.moto.test.test.20",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH76.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH76.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Samouri Helmet"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Checkers"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "21",
+            "domain": "wilder.moto.test.test.21",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH77.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH77.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Liberty Spikes"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "22",
+            "domain": "wilder.moto.test.test.22",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH78.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH78.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Aviators"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Black"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "23",
+            "domain": "wilder.moto.test.test.23",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH79.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH79.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Base"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Midnight"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "24",
+            "domain": "wilder.moto.test.test.24",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH80.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH80.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Hypno Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "25",
+            "domain": "wilder.moto.test.test.25",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH81.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH81.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Oakley Jawbreaker"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "26",
+            "domain": "wilder.moto.test.test.26",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH82.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH82.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Tech Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Honeycomb"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "27",
+            "domain": "wilder.moto.test.test.27",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH83.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH83.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Sonic Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "28",
+            "domain": "wilder.moto.test.test.28",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH84.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH84.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Cyclops Visor"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "29",
+            "domain": "wilder.moto.test.test.29",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH85.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH85.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Mech Eye"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "30",
+            "domain": "wilder.moto.test.test.30",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH86.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH86.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Pink"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "31",
+            "domain": "wilder.moto.test.test.31",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH87.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH87.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Purple"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "32",
+            "domain": "wilder.moto.test.test.32",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH88.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH88.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Orange"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Chaos (Red and Black)"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "33",
+            "domain": "wilder.moto.test.test.33",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH89.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH89.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Aviators"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Checkers"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "34",
+            "domain": "wilder.moto.test.test.34",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH90.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH90.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Army Helmet"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Base"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "35",
+            "domain": "wilder.moto.test.test.35",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH91.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH91.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Pilot's Hat"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Hypno Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Black"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "36",
+            "domain": "wilder.moto.test.test.36",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH92.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH92.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Crown"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Oakley Jawbreaker"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "37",
+            "domain": "wilder.moto.test.test.37",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH93.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH93.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Samouri Helmet"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Tech Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Honeycomb"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "38",
+            "domain": "wilder.moto.test.test.38",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH94.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH94.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Liberty Spikes"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Sonic Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "39",
+            "domain": "wilder.moto.test.test.39",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH95.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH95.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Cyclops Visor"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "40",
+            "domain": "wilder.moto.test.test.40",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH96.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH96.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Army Helmet"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Mech Eye"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "41",
+            "domain": "wilder.moto.test.test.41",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH97.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH97.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Pilot's Hat"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Pink"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "42",
+            "domain": "wilder.moto.test.test.42",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH98.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH98.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Crown"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Purple"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Midnight"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "43",
+            "domain": "wilder.moto.test.test.43",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH99.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH99.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Samouri Helmet"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Orange"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "44",
+            "domain": "wilder.moto.test.test.44",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH100.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH100.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Liberty Spikes"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Cyclops Visor"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "45",
+            "domain": "wilder.moto.test.test.45",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH101.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH101.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Base"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "46",
+            "domain": "wilder.moto.test.test.46",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH102.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH102.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Cigar"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "47",
+            "domain": "wilder.moto.test.test.47",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH103.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH103.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Joint"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "48",
+            "domain": "wilder.moto.test.test.48",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH104.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH104.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Blunt"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Honeycomb"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "49",
+            "domain": "wilder.moto.test.test.49",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH105.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH105.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Doom Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "50",
+            "domain": "wilder.moto.test.test.50",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH106.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH106.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Horns Mask #1"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "51",
+            "domain": "wilder.moto.test.test.51",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH107.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH107.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Juul"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "52",
+            "domain": "wilder.moto.test.test.52",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH108.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH108.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Ventilator"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Midnight"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "53",
+            "domain": "wilder.moto.test.test.53",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH109.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH109.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Horns Mask #2"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "54",
+            "domain": "wilder.moto.test.test.54",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH110.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH110.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Cat Punk Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Chaos (Red and Black)"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "55",
+            "domain": "wilder.moto.test.test.55",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH111.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH111.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Night Vison"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Checkers"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "56",
+            "domain": "wilder.moto.test.test.56",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH112.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH112.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Mad Max"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Base"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "57",
+            "domain": "wilder.moto.test.test.57",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH113.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH113.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "PsychoMech"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Black"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "58",
+            "domain": "wilder.moto.test.test.58",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH114.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH114.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Jason Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "59",
+            "domain": "wilder.moto.test.test.59",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH115.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH115.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Full Head Accessory",
+                        "value": "Bane Mask"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Honeycomb"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "60",
+            "domain": "wilder.moto.test.test.60",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH116.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH116.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "61",
+            "domain": "wilder.moto.test.test.61",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH117.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH117.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Army Helmet"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "62",
+            "domain": "wilder.moto.test.test.62",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH118.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH118.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Pilot's Hat"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "63",
+            "domain": "wilder.moto.test.test.63",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH119.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH119.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Crown"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "64",
+            "domain": "wilder.moto.test.test.64",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH120.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH120.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Samouri Helmet"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "65",
+            "domain": "wilder.moto.test.test.65",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH121.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH121.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Liberty Spikes"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "66",
+            "domain": "wilder.moto.test.test.66",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH122.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH122.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Aviators"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "67",
+            "domain": "wilder.moto.test.test.67",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH123.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH123.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Base"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Midnight"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Chaos (Red and Black)"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "68",
+            "domain": "wilder.moto.test.test.68",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH124.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH124.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Hypno Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Checkers"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "69",
+            "domain": "wilder.moto.test.test.69",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH125.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH125.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Oakley Jawbreaker"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "70",
+            "domain": "wilder.moto.test.test.70",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH126.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH126.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Tech Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Honeycomb"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Black"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "71",
+            "domain": "wilder.moto.test.test.71",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH127.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH127.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Sonic Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "72",
+            "domain": "wilder.moto.test.test.72",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH128.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH128.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Cyclops Visor"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "73",
+            "domain": "wilder.moto.test.test.73",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH129.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH129.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Mech Eye"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "74",
+            "domain": "wilder.moto.test.test.74",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH130.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH130.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Pink"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "75",
+            "domain": "wilder.moto.test.test.75",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH131.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH131.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Purple"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Ocean Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Avocado Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "76",
+            "domain": "wilder.moto.test.test.76",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH132.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH132.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Orange"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Sunrise Orange"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "77",
+            "domain": "wilder.moto.test.test.77",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH133.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH133.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Aviators"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Royal Purple"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "78",
+            "domain": "wilder.moto.test.test.78",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH134.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH134.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Army Helmet"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Base"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Blood Red"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "79",
+            "domain": "wilder.moto.test.test.79",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH135.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH135.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Pilot's Hat"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Hypno Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Toon"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Bubblegum Pink"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "80",
+            "domain": "wilder.moto.test.test.80",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH136.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH136.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Crown"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Oakley Jawbreaker"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rust"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Chaos (Red and Black)"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "81",
+            "domain": "wilder.moto.test.test.81",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH137.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH137.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Samouri Helmet"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Tech Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Honeycomb"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Blue"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Checkers"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "82",
+            "domain": "wilder.moto.test.test.82",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH138.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH138.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Liberty Spikes"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Sonic Goggles"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Imperfecto"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Midnight"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Violet"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "White"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "83",
+            "domain": "wilder.moto.test.test.83",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH139.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH139.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "TBD"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Cyclops Visor"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Carbon Fiber"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Forest Green"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "White"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Red"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Black"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "84",
+            "domain": "wilder.moto.test.test.84",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH140.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH140.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Army Helmet"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Mech Eye"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Chrome"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Lemon Yellow"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Slime Green"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Green"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Coffee Brown"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "85",
+            "domain": "wilder.moto.test.test.85",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH141.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH141.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Pilot's Hat"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Pink"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Basquiat"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Electric Blue"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Mint"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Mint"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Electric Blue"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "86",
+            "domain": "wilder.moto.test.test.86",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH142.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH142.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Crown"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Purple"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Rose Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Coffee Brown"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Burgundy"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Pink"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Lemon Yellow"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "87",
+            "domain": "wilder.moto.test.test.87",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH143.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH143.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Samouri Helmet"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Lasers Orange"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Silver"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Royal Purple"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Bubblegum Pink"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Yellow"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Slime Green"
+                    }
+                ]
+            }
+        },
+        {
+            "tag": "88",
+            "domain": "wilder.moto.test.test.88",
+            "metadata": {
+                "animation_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Videos/Ape_DFHFBDFH144.mp4",
+                "image_url": "https://wilder-beast-ape.s3.eu-central-1.amazonaws.com/Folder1/Photos/Ape_DFHFBDFH144.png",
+                "description": "Test render to test the infrustructure",
+                "name": "Ape",
+                "attributes": [
+                    {
+                        "trait_type": "Pet Type",
+                        "value": "Mech"
+                    },
+                    {
+                        "trait_type": "Head Top Accessory",
+                        "value": "Liberty Spikes"
+                    },
+                    {
+                        "trait_type": "Eye Accessory",
+                        "value": "Cyclops Visor"
+                    },
+                    {
+                        "trait_type": "Mech Pattern",
+                        "value": "Gold"
+                    },
+                    {
+                        "trait_type": "Hybrid Pattern",
+                        "value": "0"
+                    },
+                    {
+                        "trait_type": "Primary Color",
+                        "value": "Sunrise Orange"
+                    },
+                    {
+                        "trait_type": "Secondary Color",
+                        "value": "Blood Red"
+                    },
+                    {
+                        "trait_type": "Glow Color",
+                        "value": "Neon Orange"
+                    },
+                    {
+                        "trait_type": "Eye Color",
+                        "value": "Ocean Blue"
+                    }
+                ]
+            }
+        }
+    ]
+}

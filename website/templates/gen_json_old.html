@@ -1,0 +1,92 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="../static/index.css">
+       <style>
+*
+{
+    font-family: 'Barlow Condensed',sans-serif;
+}
+.login-button
+{
+    background-color: #2e3132;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 20px 45px;
+    font-size: 16px;
+    box-shadow: 0px 0px 2px 0px #000;
+}
+.icon
+{
+    margin-right: 5px;
+    display: none;
+}
+.loading
+{
+    background-color: #014B94;
+    color: #eee;
+}
+.loading .icon
+{
+    display: inline-block;
+    color: #eee;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin
+{
+    0%
+    {
+    transform: rotate(0deg);
+    }
+    100%
+    {
+    transform: rotate(360deg);
+    }
+}
+</style>
+
+
+
+	</head>
+
+	<body style="background-image: url('/static/images/annie-spratt-yI3weKNBRTc-unsplash.jpg');">
+        <form class="grid" action="/login" method="POST" enctype="multipart/form-data">
+
+          {% if message %}
+            <center>
+              <h3 formaction="/new-page" style="color: black;" class="let_space" >{{message}}</h3>
+            </center>
+
+          {% endif %}
+          <big><label for="file" ><big>Enter CSV file:</big></label></big>
+          <input type="file" id="file" name="file">
+
+          <center><button id="btn" class="login-button" formaction="/new-page">Generate Json</button></center>
+            <br>
+            <br>
+             <center>
+                <img src="/static/images/attrib_msg.PNG" style="width:579px;height:54px;">
+            </center>
+                        <br>
+            <br>
+                        <center>
+                <img src="/static/images/web_site_example.jpg" style="width:1567px;height:49px;">
+            </center>
+            <br>
+            <br>
+            <center>
+                <img src="/static/images/Capture__111.png" style="width:596px;height:123px;">
+                </center>
+            <br>
+            <br>
+            <center>
+                <img src="/static/images/json__screen.PNG" style="width:408px;height:690px;">
+                </center>
+        </form>
+        <br>
+        <br>
+        <br>
+    </body>
+</html>

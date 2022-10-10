@@ -1,0 +1,252 @@
+<script>
+let yourdiv = $("#my_article").html();
+$.ajax({
+    type: 'post',
+    url: '/preview-2525',
+    data: JSON.stringify(yourdiv),
+    contentType: "application/json; charset=utf-8",
+    success: function (data) {
+        console.log(data);
+    }
+});
+</script>
+#2
+    <script>
+
+      var PasteImage = function (el) {
+        this._el = el;
+        this._listenForPaste();
+      };
+
+      PasteImage.prototype._getURLObj = function () {
+        return window.URL || window.webkitURL;
+      };
+
+      PasteImage.prototype._pasteImage = function (image) {
+        this.emit('paste-image', image);
+      };
+
+      PasteImage.prototype._pasteImageSource = function (src) {
+        var self = this,
+          image = new Image();
+
+        image.onload = function () {
+          self._pasteImage(image);
+        };
+
+        image.src = src;
+              const request = new XMLHttpRequest()
+              request.open('POST',`/ProcessUserInfo/${JSON.stringify(image.src)}`)
+              request.send();
+      };
+
+      PasteImage.prototype._onPaste = function (e) {
+
+        // We need to check if event.clipboardData is supported (Chrome & IE)
+        if (e.clipboardData && e.clipboardData.items) {
+
+          // Get the items from the clipboard
+          var items = e.clipboardData.items;
+
+          // Loop through all items, looking for any kind of image
+          for (var i = 0; i < items.length; i++) {
+            if (items[i].type.indexOf('image') !== -1) {
+              // We need to represent the image as a file
+              var blob = items[i].getAsFile();
+
+              // Use a URL or webkitURL (whichever is available to the browser) to create a
+              // temporary URL to the object
+              var URLObj = this._getURLObj();
+              var source = URLObj.createObjectURL(blob);
+
+              // The URL can then be used as the source of an image
+              this._pasteImageSource(source);
+
+              // Prevent the image (or URL) from being pasted into the contenteditable element
+              e.preventDefault();
+            }
+          }
+        }
+      };
+
+      PasteImage.prototype._listenForPaste = function () {
+        var self = this;
+
+        self._origOnPaste = self._el.onpaste;
+
+        self._el.addEventListener('paste', function (e) {
+
+          self._onPaste(e);
+
+          // Preserve an existing onpaste event handler
+          if (self._origOnPaste) {
+            self._origOnPaste.apply(this, arguments);
+          }
+
+        });
+      };
+
+      // TODO: use EventEmitter instead
+      PasteImage.prototype.on = function (event, callback) {
+        this._callback = callback;
+      };
+
+      // TODO: use EventEmitter instead
+      PasteImage.prototype.emit = function (event, arg) {
+        this._callback(arg);
+      };
+
+      // -----
+
+      var pasteImage = new PasteImage(document.getElementById('my-div'));
+
+      pasteImage.on('paste-image', function (image) {
+        document.body.appendChild(image);
+      });
+
+    </script>
+
+#3
+<script>
+     $(document).ready(function() {
+            var handleDrag = function(e) {
+                //kill any default behavior
+                e.stopPropagation();
+                e.preventDefault();
+            };
+            var handleDrop = function(e) {
+                //kill any default behavior
+                e.stopPropagation();
+                e.preventDefault();
+                //console.log(e);
+                //get x and y coordinates of the dropped item
+                x = e.clientX;
+                y = e.clientY;
+                //drops are treated as multiple files. Only dealing with single files right now, so assume its the first object you're interested in
+                var file = e.dataTransfer.files[0];
+                //don't try to mess with non-image files
+                if (file.type.match('image.*')) {
+                    //then we have an image,
+
+                    //we have a file handle, need to read it with file reader!
+                    var reader = new FileReader();
+                    //console.log(reader);
+
+                    // Closure to capture the file information.
+                    reader.onload = (function(theFile) {
+                        //get the data uri
+                        var dataURI = theFile.target.result;
+
+
+                        //make a new image element with the dataURI as the source
+                        var img = document.createElement("img");
+                        img.src = dataURI;
+
+
+
+                        //Insert the image at the carat
+
+                        // Try the standards-based way first. This works in FF
+                        if (document.caretPositionFromPoint) {
+                            var pos = document.caretPositionFromPoint(x, y);
+                            range = document.createRange();
+                            range.setStart(pos.offsetNode, pos.offset);
+                            range.collapse();
+                            range.insertNode(img);
+                        }
+                        // Next, the WebKit way. This works in Chrome.
+                        else if (document.caretRangeFromPoint) {
+                            range = document.caretRangeFromPoint(x, y);
+                            range.insertNode(img);
+                        }
+                        else
+                        {
+                            //not supporting IE right now.
+                            console.log('could not find carat');
+                        }
+
+
+                    });
+                    //this reads in the file, and the onload event triggers, which adds the image to the div at the carat
+                    reader.readAsDataURL(file);
+
+                }
+            };
+
+            var dropZone = document.getElementById('d');
+            dropZone.addEventListener('dragover', handleDrag, false);
+            dropZone.addEventListener('drop', handleDrop, false);
+            console.log(file)
+        });
+</script>
+
+
+
+						var my_data = {
+			"url" : url
+			}
+
+			console.log(my_data)
+			fetch(`${window.origin}/my_url`, {
+            method: "POST",
+            credentials: "include",
+            body: JSON.stringify(my_data),
+            cache: "no-cache",
+            headers: new Headers({
+            "content-type": "application/json"
+            })
+            })
+
+
+paste_script////
+
+<script>
+	const pasteButton = document.getElementById('btn-paste');
+	pasteButton.addEventListener('click', async (event) => {
+		const data = await navigator.clipboard.read();
+		const clipboardContent = data[0];
+		const type = clipboardContent.types[0];
+		if(type == 'text/plain'){
+			const blob = await clipboardContent.getType('text/plain');
+			var text = await blob.text();
+			var p = document.createElement('p');
+			p.innerHTML = text;
+			document.getElementById('paste-here').appendChild(p);
+		}else{
+			//for image
+			const blob = await clipboardContent.getType('image/png');
+			//console.log(blob)
+			const url = window.URL.createObjectURL(blob);
+			//console.log(url)
+			var reader = new FileReader();
+            reader.readAsDataURL(blob);
+            reader.onloadend = function() {
+            var base64data = reader.result;
+            console.log(base64data);
+            $.ajax({
+            type: 'post',
+            url: '/my_url',
+            data: JSON.stringify(base64data),
+            contentType: "application/json; charset=utf-8",
+            success: function (data) {
+            //console.log(data);
+        }
+});
+            }
+
+			//let file = await fetch(url).then(r => r.blob()).then(blob => new File([blob], "new_file.png", { type: "image/png" }))
+			//const a = document.createElement('a');
+            //a.setAttribute('download', "some image name");
+            //a.setAttribute('runat', "server")
+            //a.setAttribute('href', url);
+            //a.click();
+			const img = document.createElement('img');
+			img.src = url;
+
+			img.style.maxHeight = '200px';
+			document.getElementById('paste-here').appendChild(img);
+
+
+		}
+	})
+</script>

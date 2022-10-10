@@ -1,0 +1,81 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<link rel="stylesheet" type="text/css" href="../static/index.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</style>
+    <style>
+*
+{
+    font-family: 'Barlow Condensed',sans-serif;
+}
+.login-button
+{
+    background-color: #2e3132;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    padding: 20px 45px;
+    font-size: 16px;
+    box-shadow: 0px 0px 2px 0px #000;
+}
+.icon
+{
+    margin-right: 5px;
+    display: none;
+}
+.loading
+{
+    background-color: #014B94;
+    color: #eee;
+}
+.loading .icon
+{
+    display: inline-block;
+    color: #eee;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin
+{
+    0%
+    {
+    transform: rotate(0deg);
+    }
+    100%
+    {
+    transform: rotate(360deg);
+    }
+}
+</style>
+
+	</head>
+
+	<body style="background-image: url('/static/images/annie-spratt-yI3weKNBRTc-unsplash.jpg');">
+<div class="progress" style="visibility: hidden;">
+    <div class="progress-bar progress-bar-striped" role="progressbar"
+         aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" ></div>
+</div>
+        <form class="grid" action="/check-tag-domain" method="POST" enctype="multipart/form-data">
+
+          {% if name %}
+            <center>
+              <h3 style="color: black;" class="let_space">{{name}}</h3>
+            </center>
+
+          {% endif %}
+          <big><label for="file" ><big>Enter JSON file:</big></label></big>
+          <input type="file" id="file" name="file">
+            <center><button id="btn7" class="login-button" formaction="/down-tag-domain">Check tag with domain</button></center>
+        </form>
+
+    <form class="grid" action="/n_download" method="POST" enctype="multipart/form-data">
+        <big><a style="visibility:{{ visibility }};color:black;" href="/u_download"><big>Click here to download tag with domain last digits check results.</big></a></big>
+    </form>
+        <br>
+        <br>
+        <br>
+    <script src="{{ url_for('static', filename='check_tag_with_domain.js') }}"></script>
+    </body>
+
+</html>

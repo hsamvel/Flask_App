@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, user-scalable=no"/>
+<title>Grid</title>
+<style>
+    body {
+        margin: 0;
+  font-size: 0.5px;
+         background: #111;
+         color: white;
+        }
+#img1 {
+  width: 50vw;
+}
+
+/* Image 2 has absolute position, and is 1/5 the size of image 1 */
+#img2 {
+  position: absolute;
+  width: 50vw;
+  /* Obviously this sizing can be changed */
+}
+</style>
+</head>
+<body>
+<div class="image">
+<center><img class="imag" id="img1" src="{{ img }}" /></center>
+<center><img id="img2" class="imag" src="{{ img }}"/></center>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+var pos = {{ pos }};
+
+// Reposition img2 as the window is resized
+function reposition () {
+  img2.style.left = (pos[0] / img1.naturalWidth * img1.clientWidth) + "px";
+  img2.style.top = (pos[1] / img1.naturalHeight * img1.clientHeight) + "px";
+  console.log(img1.clientWidth)
+  console.log(img1.clientHeight)
+  // The position is re-calculated based on the scaling of image 1
+  // (its current width / its original width)
+  // This is multiplied by pos to ensure that image 2 is always in the
+  // same position proportional to the size of image 1
+}
+
+// Run reposition on window changes
+window.onresize = function () {
+  reposition();
+}
+window.onload = function () {
+  reposition();
+}
+
+// Change the image on click
+img2.onclick = function () {
+  img2.src = "{{ grid }}";
+  const style = document.createElement('style');
+  style.innerHTML = `
+
+  .image{
+-webkit-transition: all .6s ease-in;
+}
+
+.image:hover{
+    -webkit-transform: scale(1.5);
+      -moz-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+        opacity: 1;
+}
+`;
+document.head.appendChild(style);
+}
+</script>
+</body>
+</html>

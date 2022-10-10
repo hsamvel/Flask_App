@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+ border: 1px dotted;
+ padding: 100px;
+}
+    </style>
+</head>
+<body>
+<form class="grid" action="/preview" method="POST" enctype="multipart/form-data">
+    <big><label for="file" ><big>Enter JSON file:</big></label></big>
+          <input type="file" id="file" name="file">
+    <center><button id="btn1" class="login-button" formaction="/preview">Preview Videos</button></center>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+const theArray = {{ theArray|safe }}
+let text = ""
+for (let i = 0; i < theArray.length; i++) {
+    text += " " + theArray[i];
+}
+    var div = document.createElement('div');
+    div.id = "container";
+    div.innerHTML = text;
+    document.body.appendChild(div);
+}, false);
+
+</script>
+</form>
+</body>
+</html>

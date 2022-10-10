@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<head>
+    <!-- import bootstrap cdn-->
+    <link rel="stylesheet" href=
+            "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity=
+                  "sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+          crossorigin="anonymous">
+    <!-- import jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity=
+                    "sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous">
+    </script>
+    <!-- import popper.js cdn -->
+    <script src=
+                    "https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity=
+                    "sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous">
+    </script>
+    <!-- import javascript cdn -->
+    <script src=
+                    "https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity=
+                    "sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous">
+    </script>
+    <!-- CSS stylesheet -->
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-size: 25px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+        }
+
+        .sidenav a:hover {
+            color: #f1f1f1;
+        }
+
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 25px;
+            font-size: 36px;
+            margin-left: 50px;
+        }
+
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+.sidenav a {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <form action="/preview-20" method="post" class="append_form">
+    </form>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+<script>
+    let obj = {{ newDict|safe }}
+
+$.each( obj.Attributes, function( key, value ) {
+        $('.append_form').append('<div class="btn-group"><button type="button" class="multiselect dropdown-toggle btn" data-toggle="dropdown" title="None selected" style="color: white; font-size: 30px;">'+key+'</button><ul class="multiselect-container dropdown-menu '+key+'"></ul></div>')
+        $.each( value, function( k, val ) {
+            $('.'+key).append('<li><a href="#"><input type="checkbox" name="'+key+'" value="'+val+'" class="mr-2">'+val+'</a></li>')
+        });
+    });
+    $('.append_form').append('<button type="submit" class="btn submit_form" style="color: black; background-color: white">Apply</button>')
+
+    $('.submit_form').on('click', function () {
+        console.log($('.append_form').serialize())
+    })
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+const theArray = {{ theArray|safe }}
+const theDict =  {{ theDict|safe }}
+let text = ""
+for (let i = 0; i < theArray.length; i++) {
+    text += theArray[i] + theDict[i]
+}
+    var div = document.createElement('div');
+    div.id = "container";
+    div.innerHTML = text;
+    div.style  = "display:inline-block; float:right";
+    document.body.appendChild(div);
+}, false);
+</script>
+</body>
+</html>

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+body {
+       font-family: "Lato", sans-serif;
+       font-size: 12px;
+       background: #111;
+       color: white;
+        }
+
+        /* Fixed sidenav, full height */
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 20px;
+        }
+
+        /* Style the sidenav links and the dropdown button */
+        .sidenav a, .dropdown-btn {
+            padding: 6px 8px 6px 16px;
+            text-decoration: none;
+            font-size: 20px;
+            color: #818181;
+            display: block;
+            border: none;
+            background: none;
+            width: 100%;
+            text-align: left;
+            cursor: pointer;
+            outline: none;
+        }
+
+        /* On mouse-over */
+        .sidenav a:hover, .dropdown-btn:hover {
+            color: #f1f1f1;
+        }
+
+        /* Main content */
+        .main {
+            font-size: 20px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+
+        /* Add an active class to the active dropdown button */
+        .active {
+            background-color: green;
+            color: white;
+        }
+
+        /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+        .dropdown-container {
+            display: none;
+            background-color: #262626;
+            padding-left: 8px;
+        }
+
+        /* Optional: Style the caret down icon */
+        .fa-caret-down {
+            float: right;
+            padding-right: 8px;
+        }
+
+        /* Some media queries for responsiveness */
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+            .sidenav a {
+                font-size: 18px;
+            }
+        }
+        .uncheck {background-color: #4CAF50;}
+        .category-image img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: auto;
+    width: ;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.mystyle {
+width: 100%;
+padding: 25px;
+background-color: coral;
+color: white;
+font-size: 25px;
+}
+a.smth:link, a.smth:visited {
+  background-color: red;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.smth:hover, a.smth:active {
+  background-color: red;
+}
+	#copy-text {
+		text-align: left;
+		width: 300px;
+		height: 100px;
+		display: block;
+		position: relative;
+		border: 1px solid black;
+	}
+#copy-text img{
+        position: top-left;
+        width: 250px;
+        height: 250px;
+	}
+.sidenav_1 {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.closebtn {
+  font-size: 45px;
+  font-weight: 600;
+}
+.container {
+	font-family: "Verdana";
+}
+#copy-text {
+	text-align: left;
+	width: 200px;
+	height: 100px;
+	display: block;
+	position: relative;
+	border: 1px solid black;
+	}
+#editableContentDiv img {
+     imgProperty: value;
+}
+div.container {
+    display: grid;
+    grid-template-columns: 220px 20px auto;
+    grid-template-rows: auto;
+}
+.hidden { display:none; }
+</style>
+</head>
+<body>
+<div class="openClose" style="cursor: pointer">
+<div style="width: 35px;height: 5px;background-color: white;margin: 6px 0;"></div>
+<div style="width: 35px;height: 5px;background-color: white;margin: 6px 0;"></div>
+<div style="width: 35px;height: 5px;background-color: white;margin: 6px 0;"></div>
+</div>
+<div class="sidenav">
+    <form action="/preview-20" method="post" class="append_form">
+<button type="button" class="uncheck" style="margin-left: 20px;background-color: #4CAF50;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;cursor: pointer;">Uncheck all</button>
+<br><br>
+    </form>
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+<link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+<div id="first" class="sidenav_1">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a><br>
+<div class="float-child" id="second" style="display: table-cell">
+		<h1>Add snapshots here</h1>
+		<div id="copy-text" contenteditable=""></div>
+	</div>
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+
+<form action="/preview-200" method="post" enctype="multipart/form-data">
+<br>Type Your Name:<br><br><br>
+<input type="text" name="name"><br><br><br><br>
+
+Choose E-mail(s) to send comment to:<br><br><br><br><br>
+<select name="cars" id="cars"  multiple class="chosen-select">
+  <option value="samvelharutyunyan645@gmail.com">samvelharutyunyan645@gmail.com</option>
+  <option value="aram.khachatryan063@gmail.com">aram.khachatryan063@gmail.com</option>
+</select>
+    <br><br><br><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<button type="submit">Send</button>
+<input type="reset" value="Reset">
+</form>
+
+</div>
+<script>
+$(".chosen-select").chosen({
+  no_results_text: "Oops, nothing found!"
+})
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+    let obj = {{ newDict|safe }}
+    $.each(obj.Attributes, function (key, value) {
+        $('.append_form').append('<button class="dropdown-btn" type="button">'+key+'<i class="fa fa-caret-down"></i></button>')
+        $('.append_form').append('<div class="dropdown-container '+key+'"></div>')
+        $.each(value, function (k, val) {
+
+
+$('.'+key).append('<a href="#" style="color: white"><input id="'+val+'" class="checkbox"  type="checkbox" name="'+key+'" value="'+val+'">'+val+'</a>')
+        });
+    });
+    $('.append_form').append('<button type="submit" class="btn submit_form" style="margin-left: 20px;background-color: #4CAF50;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;cursor: pointer;">Apply</button>')
+
+    var dropdown = document.getElementsByClassName("dropdown-btn");
+    var i;
+
+    for (i = 0; i < dropdown.length; i++) {
+        dropdown[i].addEventListener("click", function () {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+                dropdownContent.style.display = "block";
+            }
+        });
+    }
+
+    let opCl = false
+    $('.openClose').on('click', function () {
+        if (opCl) {
+            $('.sidenav').css({'width': '0px'})
+            $('.openClose').css({'margin-left': '0'})
+            $('#main_content').css({'margin-left': '0'})
+            opCl = false
+        }
+        else {
+            $('.sidenav').css({'width': '250px'})
+            $('.openClose').css({'margin-left': '250px'})
+            $('#main_content').css({'margin-left': '250px'})
+            opCl = true
+        }
+})
+
+</script>
+<script src="https://scripts.sirv.com/sirv.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+const theArray = {{ theArray|safe }}
+if (theArray.length < 301) {
+    var  newLength = theArray.length
+    var flag = 1
+}else {
+    var newLength = 301
+    var flag = 0
+}
+const theDict =  {{ theDict|safe }}
+let text = ""
+for (let i = 0; i < newLength; i++) {
+    text += theArray[i] + theDict[i]
+}
+    var div = document.createElement('div');
+    div.id = "container";
+    div.innerHTML = text;
+    div.style  = "display:inline-block; float:right";
+    document.body.appendChild(div);
+    if (flag == 0) {
+    var randLetter = String.fromCharCode(65 + Math.floor(Math.random() * 26));
+    var uniqid = randLetter + Date.now();
+    $("#container").append("<div height=60px><center><button class='butt' id='"+uniqid+"' onclick=nextPreview();hideFunction(); style='margin-left: 20px;background-color: red;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;cursor: pointer;'>Continue</button></center></div>")
+    }
+}, false);
+</script>
+<script>
+    function nextPreview() {
+    var videos = document.getElementsByTagName('video'),
+    numVideos = videos.length;
+    const theArray = {{ theArray|safe }}
+    const theDict =  {{ theDict|safe }}
+    console.log(theArray.length)
+    if (theArray.length - numVideos < 301) {
+        var  newLength = theArray.length
+        var flag = 0
+    }else {
+        var newLength = numVideos + 301
+        var flag = 1
+    }
+    console.log(newLength)
+    let text = ""
+    for (let i = numVideos; i < newLength; i++) {
+        text += theArray[i] + theDict[i]
+    }
+    nDiv = "container" + newLength;
+    var div = document.createElement('div');
+    div.id = nDiv;
+    div.innerHTML = text;
+    div.style  = "display:inline-block; float:right";
+    document.body.appendChild(div);
+    if (flag == 1) {
+    $("#" + nDiv).append("<div height=60px><center><button class='butt' onclick=nextPreview();hideFunction(); style='margin-left: 20px;background-color: red;border: none;color: white;padding: 15px 32px;text-align: center;text-decoration: none;display: inline-block;font-size: 16px;cursor: pointer;'>Continue</button></center></div>")
+    }
+}
+</script>
+<script>
+    function hideFunction() {
+ document.getElementsByClassName('butt')[document.getElementsByClassName('butt').length - 1].style.visibility='hidden';
+}
+</script>
+<script>
+jQuery(function(){
+      if (localStorage.input) {
+      var checks = JSON.parse(localStorage.input);
+      jQuery(':checkbox').prop('checked', function(i) {
+        return checks[i];
+       });
+      }
+});
+
+jQuery(':checkbox').on('change', function() {
+        localStorage.input = JSON.stringify(jQuery(':checkbox').map(function() {
+        return this.checked;
+        }).get());
+});
+</script>
+<script>
+    $(document).ready(function(){
+    $(".uncheck").click(function(){
+        $(".checkbox").prop("checked", false);
+    });
+});
+</script>
+<script>
+function myFunction() {
+var x = document.getElementById("myDIV");
+if (x.style.display === "none") {
+x.style.display = "block";
+} else {
+x.style.display = "none";
+}
+}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function openNav(sm) {
+  console.log(document.getElementById(sm).href)
+  let ln = document.getElementById(sm).href
+  let link = ln
+$.ajax({
+    type: 'post',
+    url: '/preview-500',
+    data: JSON.stringify(link),
+    contentType: "application/json; charset=utf-8",
+    success: function (data) {
+        console.log(data);
+    }
+});
+  document.getElementById("first").style.width = "1250px";
+}
+
+function closeNav() {
+  document.getElementById("first").style.width = "0";
+}
+</script>
+<script src="{{ url_for('static',filename='pasted_file_for_preview_vid.js') }}"></script>
+</body>
+</html>

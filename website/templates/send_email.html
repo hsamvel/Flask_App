@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<style>
+	.container {
+		font-family: "Verdana";
+	}
+	#copy-text {
+		text-align: left;
+		width: 300px;
+		height: 100px;
+		display: block;
+		position: relative;
+		border: 1px solid black;
+	}
+</style>
+<body>
+<h1>Send e-mail to:</h1>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.jquery.min.js"></script>
+<link href="https://cdn.rawgit.com/harvesthq/chosen/gh-pages/chosen.min.css" rel="stylesheet"/>
+<form action="/preview-255" method="post" enctype="multipart/form-data">
+Type Your Name:<br><br><br>
+<input type="text" name="name"><br><br><br><br>
+
+Choose E-mail(s) to send comment to:<br><br><br><br><br>
+<select name="cars" id="cars"  multiple class="chosen-select">
+  <option value="samvelharutyunyan645@gmail.com">samvelharutyunyan645@gmail.com</option>
+  <option value="samvelharutyunyan645@gmail.com">samvelharutyunyan645@gmail.com</option>
+  <option value="Aram">Mesese</option>
+  <option value="Meline">Audadsad</option>
+</select>
+    <br><br><br><br>
+Comment:<br>
+<input type="text" name="comment" size="50"><br><br>
+<button type="submit">Send</button>
+<input type="reset" value="Reset">
+</form>
+<div class="container">
+		<h1>Add snapshots here</h1>
+		<div id="copy-text" contenteditable="">Paste your snapshot by clicking Paste button.</div>
+		<button id="btn-paste">Paste</button>
+	</div>
+    <div id="paste-here"></div>
+    <br><br><br>
+<script>
+$(".chosen-select").chosen({
+  no_results_text: "Oops, nothing found!"
+})
+</script>
+<script>
+	const pasteButton = document.getElementById('btn-paste');
+	pasteButton.addEventListener('click', async (event) => {
+		const data = await navigator.clipboard.read();
+		const clipboardContent = data[0];
+		const type = clipboardContent.types[0];
+		if(type == 'text/plain'){
+			const blob = await clipboardContent.getType('text/plain');
+			var text = await blob.text();
+			var p = document.createElement('p');
+			p.innerHTML = text;
+			document.getElementById('paste-here').appendChild(p);
+		}else{
+			//for image
+			const blob = await clipboardContent.getType('image/png');
+			const url = window.URL.createObjectURL(blob);
+			//let file = await fetch(url).then(r => r.blob()).then(blob => new File([blob], "new_file.png", { type: "image/png" }))
+			const a = document.createElement('a');
+            a.setAttribute('download', "some image name");
+            a.setAttribute('runat', "server")
+            a.setAttribute('href', url);
+            a.click();
+			const img = document.createElement('img');
+			img.src = url;
+			img.style.maxHeight = '200px';
+			document.getElementById('paste-here').appendChild(img);
+
+
+		}
+	})
+</script>
+</body>
+</html>

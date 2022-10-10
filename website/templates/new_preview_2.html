@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+body
+{
+  font-family: Open sans, Helvetica;
+  background: #111;
+  color: white;
+  font-size: 14px;
+}
+
+h1
+{
+  font-weight: lighter;
+}
+
+small
+{
+  color: firebrick;
+}
+
+div.checkbox_select
+{
+  width: 200px;
+}
+
+.checkbox_select_anchor
+{
+  display: block;
+  background: firebrick;
+  color: white;
+  cursor: pointer;
+  padding: 10px 5px 5px;
+  position: relative;
+}
+
+.checkbox_select_anchor:after
+{
+  width: 0;
+	height: 0;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 10px solid darkred;
+  content: "";
+  position: absolute;
+  right: 10px;
+  top: 15px;
+}
+
+.expanded .checkbox_select_anchor:after
+{
+	border-top: 0;
+	border-bottom: 10px solid firebrick;
+}
+
+
+.checkbox_select_anchor:hover
+{
+  background: #FF3030 !important;
+}
+
+.expanded .checkbox_select_anchor
+{
+    background: #7C1818;
+}
+
+div.checkbox_select .select_input
+{
+    width: 100%;
+    cursor: pointer;
+}
+
+.checkbox_select_dropdown
+{
+    display: none;
+    background: whitesmoke;
+}
+
+.checkbox_select_dropdown.show
+{
+    display: block;
+}
+
+.checkbox_select_dropdown ul
+{
+    max-height: 300px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0;
+  margin: 0;
+      border: 1px solid #999;
+  border-top: 0;
+  border-bottom: 0;
+}
+.checkbox_select_dropdown ul li
+{
+    list-style: none;
+    position: relative;
+    color: #666;
+}
+.checkbox_select_dropdown ul li label
+{
+  position: relative;
+      padding: 10px 5px 5px 40px;
+     display: block;
+  cursor: pointer;
+}
+.checkbox_select_dropdown ul li label:hover
+{
+  background: #cbcbcb;
+  color: white;
+}
+.checkbox_select_dropdown ul li input:checked + label
+{
+  background: #bbb;
+  color: white;
+  text-shadow: 0px 1px 1px rgba(150, 150, 150, 1);
+}
+.checkbox_select_dropdown ul li input
+{
+  position: absolute;
+  left:0;
+  z-index:1;
+  display: inline-block;
+  height: 100%;
+  width: 30px;
+}
+.checkbox_select_search
+{
+    width: 200px;
+    padding: 10px 5px 5px;
+    border: 1px solid #999;
+      border-top: 0;
+    -webkit-box-sizing: border-box;
+	  -moz-box-sizing: border-box;
+	  box-sizing: border-box;
+}
+
+.checkbox_select_submit
+{
+    background: firebrick;
+    color: white;
+    padding: 10px 5px 5px;
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hide
+{
+    display: none;
+}
+.accordeon {
+  width: 460px;
+  height: auto;
+  min-height: 340px;
+  font-size: 20px;
+  cursor: pointer;
+  user-select: none;
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.accordeon-header {
+  display: inline-block;
+  width: 450px;
+  border: solid 0.1vw black;
+  border-radius: 0.2vw;
+  background-color: white;
+  padding-left: 10px;
+  color: black;
+}
+
+.accordeon-header:hover {
+  opacity: 0.7;
+}
+
+.accordeon-body {
+  display: block;
+  position: absolute;
+}
+
+.button-group {
+  display: block;
+  cursor: pointer;
+  width: 460px;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.accordeon-group {
+  padding-left: 20px;
+}
+
+.accordeon-group .button-group {
+  width: 100%;
+}
+
+.button-group[depth="-1"] {
+  color: green;
+}
+
+.hide {
+  display: none;
+}
+</style>
+<head>
+    <script class="u-script" type="text/javascript" src="{{ url_for('static',filename='multiselect_drop.js') }}"></script>
+
+</head>
+<body>
+<div class="accordeon">
+  <span class="accordeon-header" aria-multiselectable="true">Select something</span>
+  <div class="accordeon-body hide" aria-multiline="true">
+
+  </div>
+</div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/bootstrap-select.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/css/bootstrap-select.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-select@1.13.14/dist/js/i18n/defaults-*.min.js"></script>
+<script>
+
+	$(function()
+	{
+		var mySelectCheckbox = new checkbox_select(
+		{
+			selector : "#make_checkbox_select",
+            selected_translation : "selected",
+            all_translation : "Toate marcile",
+            not_found : "Not Found",
+
+			// Event during initialization
+			onApply : function(e)
+			{
+                alert("Custom Event(s): " + e.selected);
+			}
+		});
+
+	});
+</script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+const theArray = {{ theArray|safe }}
+const theDict =  {{ theDict|safe }}
+let text = ""
+for (let i = 0; i < theArray.length; i++) {
+    text += theArray[i] + theDict[i]
+}
+    var div = document.createElement('div');
+    div.id = "container";
+    div.innerHTML = text;
+    div.style  = "display:inline-block; float:right";
+    document.body.appendChild(div);
+}, false);
+</script>
+<script>
+
+const obj = {{ newDict|safe }}
+
+initAccordeon(obj);   // <--------------------------- Call initialization
+
+function accordeonAddEvents() {
+  Array.from(document.getElementsByClassName("accordeon-header")).forEach(function(header) {
+    if (header.getAttribute("listener") !== "true") {
+      header.addEventListener("click", function() {
+        this.parentNode.getElementsByClassName("accordeon-body")[0].classList.toggle("hide");
+      });
+      header.setAttribute("listener", "true");
+    }
+  });
+
+  Array.from(document.getElementsByClassName("button-group")).forEach(function(but) {
+    if (but.getAttribute("listener") !== "true") {
+      but.addEventListener("click", function() {
+        if (this.getAttribute("depth") === "-1") {
+          let header = this;
+          while ((header = header.parentElement) && header.className !== "accordeon");
+          header.getElementsByClassName("accordeon-header")[0].innerHTML = this.innerHTML;
+          return;
+        }
+        const groups = Array.from(this.parentNode.getElementsByClassName("accordeon-group"));
+        groups.forEach(g => {
+          if (g.getAttribute("uuid") === this.getAttribute("uuid") &&
+            g.getAttribute("depth") === this.getAttribute("depth")) {
+            g.classList.toggle("hide");
+          }
+        });
+      });
+      but.setAttribute("listener", "true");
+    }
+  });
+}
+
+function initAccordeon(data) {
+  accordeons = Array.from(document.getElementsByClassName("accordeon-body"));
+  accordeons.forEach(acc => {
+    acc.innerHTML = "";
+    const route = (subObj, keyIndex = 0, parent = acc, depth = 0) => {
+      const keys = Object.keys(subObj);
+      if (typeof subObj === 'object' && !Array.isArray(subObj) && keys.length > 0) {
+        while (keyIndex < keys.length) {
+          var but = document.createElement("button");
+          but.className = "button-group";
+          but.setAttribute("uuid", keyIndex);
+          but.setAttribute("depth", depth);
+          but.innerHTML = keys[keyIndex];
+          var group = document.createElement("div");
+          group.className = "accordeon-group hide";
+          group.setAttribute("uuid", keyIndex);
+          group.setAttribute("depth", depth);
+          route(subObj[keys[keyIndex]], 0, group, depth + 1);
+          keyIndex++;
+          parent.append(but);
+          parent.append(group);
+        }
+      } else {
+        if (!Array.isArray(subObj)) subObj = [subObj];
+        subObj.forEach((e, i) => {
+          if (typeof e === 'object') {
+              route(e, 0, parent, depth);
+          } else {
+              var but = document.createElement("button");
+              but.className = "button-group";
+              but.setAttribute("uuid", i);
+              but.setAttribute("depth", "-1");
+              but.innerHTML = e;
+              parent.append(but);
+          }
+        });
+      }
+    };
+    route(data);
+  });
+  accordeonAddEvents();
+}
+</script>
+
+</html>
